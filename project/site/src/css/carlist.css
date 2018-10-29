@@ -1,0 +1,114 @@
+*{margin:0;padding:0;}
+body,html{width: 100%;height: 100%;}
+#top .container{
+	height: 28px;
+}
+#top .top_l li{
+	float:left;
+}
+#top .top_l li a{
+	display: block;
+	padding:10px;
+	font-style: 12px;
+	color:#333333;
+}
+#top .top_r li{
+	float:left;
+}
+#top .top_r li a{
+	display: block;
+	padding:10px;
+	font-style: 12px;
+	color:#333333;
+}
+#search .container{
+	height: 100px;
+	overflow: hidden;
+}
+.search_l{
+	width: 114px;
+	height: 100px;
+}
+.search_c{
+	margin-left:426px;
+	margin-top:40px;
+}
+.search_c input:nth-child(1){
+	padding-left: 6px;
+	width: 240px;
+	height: 32px;
+	border:1px solid #F00582;
+}
+.search_c input:nth-child(2){
+	background:#F00582;
+	font-size: 14px;
+	color:#fff;
+	width: 90px;
+	height: 34px;
+}
+#nav{
+	background:#F00582
+}
+#nav .container{
+	height: 38px;
+	overflow: hidden;
+	
+}
+.nav_l{
+	width: 95px;
+	height: 27px;
+	padding-left:85px;
+	padding-top:11px;
+	position: relative;
+	background:#BD166F;
+	color:#fff;
+	font-size: 14px;
+}
+.nav_l i{
+	display: block;
+	width: 26px;
+	height: 32px;
+	background:url("../images/nav.fw.png") -30px 0;
+	position: absolute;left: 45px;top:4px;
+}
+.nav_r li{
+	float:left;
+}
+.nav_r li a{
+	display: block;
+	padding-left:38px;
+	padding-right: 38px;
+	margin-left: 5px;
+	padding-top:11px;
+	height: 38px;
+	background:#F00582;
+	color:#fff;
+	font-size: 14px;
+}
+.nav_r li a:hover{
+	background:#BD166F;
+}
+#nav .nav_r1{
+	padding-left: 36px;
+}
+/*body,html{height: 100%;}*/
+#inbox3 .container{height: 100%;}
+.top{width: 100%;height: 83px;background:url("../images/top.png") no-repeat;}
+.center{width: 100%;height: 494x;}
+.center h4 span:nth-child(2){margin-left: 200px;}
+.center h4 span:nth-child(3){margin-left: 64px;}
+.center h4 span:nth-child(4){margin-left: 105px;}
+.center h4 span:nth-child(5){margin-left: 80px;}
+.bottom{width: 100%;height: 265px;}
+#datalist{overflow: hidden;border-top:3px solid red;}
+#datalist li{float: left;padding-right: 50px;padding-top: 20px;}
+#datalist li p:nth-child(2){text-overflow: ellipsis;white-space: nowrap;overflow: hidden;width: 150px;}
+#datalist li input:last-child{border:1px solid #333;}
+#carlist{height: 404px;overflow-x: hidden;}
+#carlist li  span:nth-child(1){margin-left: 130px;}
+#carlist li  span:nth-child(3){padding:3px;}
+#carlist li  span:nth-child(4){margin-left: 73px;}
+#carlist li  span:nth-child(5){margin-left: 107px;}
+#carlist li  input:nth-child(6){margin-left: 118px;width: 20px;height: 20px;}
+
+#carlist li  span:nth-child(3) span{text-align: center;padding:3px;border:1px solid #ccc;} 

@@ -1,0 +1,192 @@
+*{margin:0;padding:0;}
+body,html{width: 100%;height: 100%;}
+#top .container{
+	height: 28px;
+}
+#top .top_l li{
+	float:left;
+}
+#top .top_l li a{
+	display: block;
+	padding:10px;
+	font-style: 12px;
+	color:#333333;
+}
+#top .top_r li{
+	float:left;
+}
+#top .top_r li a{
+	display: block;
+	padding:10px;
+	font-style: 12px;
+	color:#333333;
+}
+#search .container{
+	height: 100px;
+	overflow: hidden;
+}
+.search_l{
+	width: 114px;
+	height: 100px;
+}
+.search_c{
+	margin-left:426px;
+	margin-top:40px;
+}
+.search_c input:nth-child(1){
+	padding-left: 6px;
+	width: 240px;
+	height: 32px;
+	border:1px solid #F00582;
+}
+.search_c input:nth-child(2){
+	background:#F00582;
+	font-size: 14px;
+	color:#fff;
+	width: 90px;
+	height: 34px;
+}
+#nav{
+	background:#F00582
+}
+#nav .container{
+	height: 38px;
+	overflow: hidden;
+	
+}
+.nav_l{
+	width: 95px;
+	height: 27px;
+	padding-left:85px;
+	padding-top:11px;
+	position: relative;
+	background:#F00582;
+	color:#fff;
+	font-size: 14px;
+}
+#nav .container a:hover{
+	background:#BD166F;
+
+}
+.nav_l i{
+	display: block;
+	width: 26px;
+	height: 32px;
+	background:url("../images/detail1.png");
+	position: absolute;left: 45px;top:4px;
+}
+.nav_r li{
+	float:left;
+}
+.nav_r li a{
+	display: block;
+	padding-left:38px;
+	padding-right: 38px;
+	margin-left: 5px;
+	padding-top:11px;
+	height: 38px;
+	background:#F00582;
+	color:#fff;
+	font-size: 14px;
+}
+.nav_r li a:hover{
+	background:#BD166F;
+}
+#nav .nav_r1{
+	padding-left: 36px;
+}
+#detail .container{
+	height: 545px;
+	margin-top: 22px;
+}
+.detail_nav{
+	height: 45px;
+	margin-top: 22px;
+}
+.detail_navl li{
+	float:left;
+}
+.detail{
+	height: 545px;
+}
+.detail_l{
+	width: 400px;
+	height: 400px;
+}
+.detail_c{
+	width: 534px;
+	height: 393px;
+	padding-left: 50px;
+	padding-top: 7px
+}
+.detail_l{
+	width: 400px;
+	height: 400px;
+}
+.detail_l img:nth-child(2){
+	display: none;
+	position: absolute;
+	left: 1px;
+	top:1px;
+}
+.detail_c h3{
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.detail_c p:nth-child(2){
+	margin-top: 17px;
+	line-height: 20px;
+	color: #ED145B;
+}
+.detail_c p:nth-child(3){
+	height: 70px;
+	padding-left: 20px;
+	margin-top: 60px;
+}
+.detail_c p:nth-child(4){
+	margin-top: 20px;
+	padding-left: 20px;
+	height: 35px;
+	border-bottom: 1px dashed #ccc;
+	border-top: 1px dashed #ccc;
+	line-height: 35px;
+
+}
+.detail_c .car{
+	width: 210px;
+	height: 53px;
+	text-align: center;
+	line-height: 53px;
+	color:#fff;
+	font-size: 20px;
+	background:#ED145B;
+	margin-top: 34px;
+}
+.quan span:nth-child(1){
+	padding-left: 20px;
+	padding-right: 24px;
+	border-right: 1px solid #ccc;
+}
+.quan span:nth-child(2){
+	padding-left: 20px;
+	padding-right: 24px;
+}
+#list h3 span:nth-child(2){
+	margin-left: 10px;
+}
+.list_list{
+	margin-top: 20px;
+	overflow: hidden
+}
+.list_list li{
+	float:left;
+	border:1px solid #ccc;
+	margin-right:80px;
+	margin-bottom:30px;
+}
+
+
+
+
+

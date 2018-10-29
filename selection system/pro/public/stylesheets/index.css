@@ -1,0 +1,273 @@
+body,html{
+	width: 100%;
+	/*height: 100%;*/
+	/*background:url("../images/beijing.jpg");*/
+}
+#box{
+	width: 100%;
+	/*height: 100%;*/
+	min-width: 800px;
+}
+.lesson_t{
+	background:skyblue;
+}
+.lesson_t p{
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	color:#Fff;
+	font-size: 20px;
+}
+.dangqian{
+	padding-left: 630px;
+	font-size: 14px;
+	color:#fff;
+}
+.yh{
+	display: inline-block;
+	font-size: 16px;
+	color:#000;
+}
+.lesson_bl{
+	width: 250px;
+	height: 560px;
+	border-right: 1px solid #ccc
+	
+}
+.lesson_br{
+	position: relative;
+	overflow: hidden;
+	height: 560px;
+}
+.lesson_bl ul{
+	width: 100%; 
+}
+.lesson_bl ul li{
+	height: 80px;
+	line-height: 80px;
+	font-size: 16px;
+	text-align: center;
+}
+.lesson_bl ul li a{
+	color:#000;
+}
+.person h3{
+	width: 800px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+	height: 80px;
+	line-height: 80px;
+	color:#000;
+	border-bottom: 1px solid #ccc
+}
+.person p{
+	width: 800px;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	color:#000;
+	font-size: 24px;
+	margin-top: 30px;
+}
+.rev label{
+	display: inline-block;
+	width:100px;
+	margin-left: 300px
+}
+.rev h3{
+	width: 800px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+	height: 80px;
+	line-height: 80px;
+	color:#000;
+	border-bottom: 1px solid #ccc
+}
+.rev input[type=password],.rev input[type=text]{
+	width: 120px;
+	height: 20px;
+	border:1px solid #000;
+	margin:15px;
+}
+.rev input[type=button]{
+	width: 80px;
+	height: 40px;
+	margin-left: 360px;
+	margin-top:25px;
+}
+.lesson_list{
+	overflow-y: hidden;
+	position: relative;
+	/*top:30px;*/
+
+}
+.lesson_br{
+	overflow-y: scroll;
+
+}
+.lesson_list li{
+	float:left;
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+}
+.xiding{
+	position: fixed;
+	left: 250px;
+	top: 100px;
+	z-index: 500;
+}
+.list_top{
+	height: 30px;
+	background:blue;
+	width: 100%;
+	/*position: fixed;*/
+	/*left: 250px;
+	top: 100px;*/
+	/*z-index: 500;*/
+}
+.list_top li{
+	float:left;
+	color:#fff;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	width: 150px;
+	background:blue;
+	text-align: center;
+}
+.xuanze{
+	background:pink;
+}
+#queren{
+	width: 80px;
+	height: 40px;
+	margin-left: 360px;
+	margin-top:25px;
+}
+.lesson_br .check_t{
+	display: block;
+	width: 400px;
+	height: 25px;
+	border:1px solid #ccc;
+	margin:80px auto 0 auto;
+}
+.lesson_br .check_b{
+	display: block;
+	width: 80px;
+	height: 40px;
+	margin:25px auto;
+}
+.lesson_br .checked_out{
+	width: 100%;
+	/*height: 200px;*/
+	overflow-x:hidden;
+}
+.checked_out li{
+	float:left;
+	width: 170px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+
+}
+.check_up{
+	width: 100%;
+	background:blue;
+	overflow: hidden
+}
+.check_up li{
+	float:left;
+	width: 170px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color:#fff;
+
+}
+.checked_out .del{
+	width: 40px;
+	height: 25px;
+}
+.check_down{
+	width: 100%;;
+	height: 200px;
+	overflow-x:hidden;
+}
+#logo{
+	margin-left: 345px;
+	margin-top: 30px;
+}
+#file{
+	width: 40px;
+	height: 40px;
+	margin-left: 345px;
+}
+#upfile{
+	width: 30px;
+	height:24px;
+	margin-left: 30px;
+	vertical-align:top;
+}
+.notice_top{
+	width: 90%;
+	margin:0 auto;
+	overflow: hidden;
+	/*height: 35px;*/
+}
+.notice_top li{
+	width: 50%;
+	float: left;
+	height: 35px;
+	text-align: center;
+	color:#fff;
+	font-weight: bold;
+	font-size:16px;
+	background: red;
+	line-height: 35px;
+}
+.notice_content{
+	width: 90%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.notice_content li{
+	width: 49%;
+	float: left;
+	height: 45px;
+	text-align: center;
+	color:#000;
+	font-weight: bold;
+	font-size:14px;
+	line-height: 45px;
+	border:1px solid #ccc;
+	border-top:none
+}
+.notice_content li a{
+	color:#000;
+}
+.gonggao_c {
+	text-indent:2em;
+	font-size: 14px;
+	color:#000;
+	/*text-align: center;*/
+	height: 50px;
+	line-height: 50px;
+}
+.gonggao_s {
+	font-size: 12px;
+	color:#000;
+	padding-left: 300px;
+	height: 20px;
+	line-height: 20px;
+}
+.gonggao_t {
+	font-size: 12px;
+	color:#000;
+	padding-left: 300px;
+	height: 20px;
+	line-height: 20px;
+}

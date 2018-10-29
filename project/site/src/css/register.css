@@ -1,0 +1,116 @@
+*{margin:0;padding:0;}
+body,html{width: 100%;height: 100%;}
+#top .container{
+	height: 79px;
+}
+#top a{
+	display: block;
+	width: 170px;
+	height: 79px;
+}
+#reg .container{
+	width: 990px;
+	height: 349px;
+	border: 5px solid #ccc;
+	padding-top:12px;
+}
+.reg_l{
+	width: 544px;
+	height: 345px;
+	padding-left: 14px;
+	padding-top: 16px;
+}
+.reg_r{
+	width: 431px;
+	height: 330px;
+	border-left:1px solid #ccc;
+	padding-top:12px;
+	/*background:blue;*/
+}
+.reg_l h3{
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+}
+.reg_lc{
+	margin-top: 18px;
+}
+.reg_lc input{
+	width: 190px;
+	height: 26px;
+	border:1px solid #ccc;
+	margin-bottom: 15px;
+	margin-left:15px;
+	margin-right: 15px;
+}
+.reg_lc .randomNum{
+	display: inline-block;
+	width: 56px;
+	height: 17px;
+	text-align: center;
+	color:#fff;
+	background:#000;
+	margin-right: 12px;
+	line-height: 17px;
+}
+.reg label{
+	display: inline-block;
+	width: 67px;
+	text-align: right;
+	margin-left:29px;
+}
+.reg_lb input{
+	width: 102px;
+	height: 42px;
+	font-size: 18px;
+	color: #fff;
+	background: #FA8A12;
+	margin-left: 112px;
+	margin-top: 18px;
+}
+.reg_r h3{
+	padding-left: 51px;
+	font-size: 14px;
+	color:#000;
+	font-weight: bold;
+}
+.reg_r p{
+	margin-top: 40px;
+	padding-left: 51px;
+	font-size: 14px;
+	color:#000;
+	font-weight: bold;
+}
+.reg_r input{
+	width: 102px;
+	height: 42px;
+	color:#fff;
+	background:#1B72D7;
+	margin-top: 26px;
+	margin-left: 65px;
+}
+.reg_r span{
+	display: block;
+	color:#000;
+	padding-left: 50px;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 12px;
+}
+.reg_r_qq{
+	width: 171px;
+	height: 33px;
+	margin-top: 35px;
+	margin-left: 50px;
+}
+.reg_r_sina{
+	width: 159px;
+	height: 33px;
+	margin-top: 6px;
+	margin-left: 50px;
+}
+#footer p{
+	margin-top: 48px;
+	font-size: 12px;
+	text-align: center;
+}

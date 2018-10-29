@@ -1,0 +1,106 @@
+*{margin:0;padding:0;}
+body,html{width: 100%;height: 100%;}
+#top .container{
+	height: 79px;
+}
+#top a{
+	display: block;
+	width: 170px;
+	height: 79px;
+}
+#login .container{
+	width: 990px;
+	height: 317px;
+	border: 5px solid #ccc;
+	/*overflow: hidden;*/
+}
+.login_l{
+	width: 531px;
+	padding:16px 16px 0px 16px;
+	height: 317px;
+}
+.login_l h3{
+	line-height: 30px;
+	font-style: 18px;
+	color:#000;
+	font-weight: bold;
+}
+.login_lc{
+	width: 499px;
+	height: 164px;
+	padding:38px 0 0 32px;
+}
+.login_lcl{
+	width: 160px;
+}
+.login_lcr input[type="text"],.login_lcr input[type="password"]{
+	width: 190px;
+	height: 26px;
+	border:1px solid #ccc;
+	margin-bottom:15px;
+}
+.login_lcr input[type="button"]{
+	font-size:18px;
+	color: #fff;
+	background:#1B6DCE;
+	width: 103px;
+	height: 41px;
+	margin-left: 69px;
+}
+.login_lcr a{
+	padding-left: 15px;
+	color:#1B6DCE;
+	font-size: 12px;
+}
+.login_bottom{
+	width: 335px;
+	height: 33px;
+}
+.login_r{
+	width: 426px;
+	height: 294px;
+	margin-top: 11px;
+	border-left:1px solid #ccc;
+}
+.login_r h3{
+	height: 34px;
+	padding-left: 51px;
+	line-height: 34px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.login_r p{
+	height: 30px;
+	padding-left: 63px;
+	line-height: 30px;
+	font-size: 12px;
+	color:#bbb;
+}
+.login_r span{
+	height: 42px;
+	padding-left: 63px;
+	margin-top: 18px;
+	line-height: 42px;
+	font-size: 12px;
+	color:#bbb;
+}
+.login_r input{
+	width: 102px;
+	height: 42px;
+	font-size: 18px;
+	color:#fff;
+	background:#FA8A12;
+	margin-left:66px;
+	margin-top:16px;
+
+}
+#footer p{
+	margin-top: 48px;
+	font-size: 12px;
+	text-align: center;
+}
+#footer .ceshi{
+	width: 500px;
+	height: 300px;
+	margin:0 auto;
+}
